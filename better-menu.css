@@ -1,0 +1,146 @@
+* {
+  font-family: verdana;
+}
+
+p,
+h3,
+h4 {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+h3 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+.main-page {
+  width: 1000px;
+  /* height: 1100px; */
+  background-color: #faac64;
+}
+.header-pics {
+  background-color: #fae9bd;
+  margin: 20px;
+  border-top: 20px solid #faac64;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 140px;
+  padding: 20px;
+}
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.order-on {
+  background-color: #f6de9e;
+  text-transform: uppercase;
+  width: 50%;
+  margin: 20px;
+  margin-top: 10px;
+}
+.phone-number {
+  background-color: #f8e9be;
+  border-bottom: dashed #6f4321;
+  width: 50%;
+  margin: 20px;
+  margin-top: 10px;
+}
+
+.burger-pic,
+.bbq-pork-pic,
+.chicken-fried-pic,
+.sliced-pork-pic,
+.pulled-chicken-pic {
+  margin: 10px;
+}
+
+.menu-item {
+  background-color: #f6de9e;
+  display: flex;
+  /* align-items: flex-start; */
+  gap: 20px;
+  /* max-width: 800px; */
+  margin: 10px 20px;
+  padding: 20px;
+}
+
+.menu-img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.menu-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.details h3 {
+  margin: 0;
+  font-size: 25px;
+  text-align: left;
+}
+
+.details p {
+  margin: 20px 0 0;
+  font-size: 20px;
+  text-align: left;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 25px;
+  margin-right: 20px;
+  /* white-space: nowrap; */
+  /* min-width: 50px; */
+}
+
+.bottom-menu {
+  display: flex;
+}
+
+.bottom-left {
+  background-color: #f4dfa0;
+  margin: 20px;
+  margin-right: 10px;
+  border-bottom: dashed #6f4321;
+}
+
+.bottom-right {
+  background-color: #f7eabe;
+  margin: 20px;
+  border-bottom: dashed #6f4321;
+}
+.bottom-left-top,
+.bottom-left-down,
+.bottom-right-top,
+.bottom-right-down {
+  display: flex;
+  margin: 20px;
+}
+
+.dashed-border {
+  border-top: dashed #6f4321;
+}
+.prices {
+  font-size: 25px;
+}
