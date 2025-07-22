@@ -21,7 +21,7 @@ h5 {
 }
 .main-page {
   width: 1000px;
-  /* height: 1100px; */
+  margin: 0 auto;
   background-color: #faac64;
 }
 .header-pics {
